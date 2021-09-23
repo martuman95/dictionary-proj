@@ -9,7 +9,6 @@ function App() {
         <p>
           Dictionary
         </p>
-<a href="#" className="btn btn-primary shadow">Hello!</a>
       </header>
       <Dictionary />
       </div>

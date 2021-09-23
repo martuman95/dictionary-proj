@@ -14,7 +14,7 @@ setKeyword(event.target.value);
     return (
         <div className="Dictionary">
 <form onSubmit={Search}>
-    <input type="search" onChange={handleKeyword}/>
+    <input type="search" onChange={handleKeyword} value="Type your word"/>
 </form>
         </div>
     )
