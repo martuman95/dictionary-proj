@@ -1,0 +1,10 @@
+input {
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(196, 195, 195);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+}

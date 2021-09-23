@@ -1,20 +1,17 @@
+.container {
+  border: outset 1px #dbdbff;
+  border-radius: 10px;
+  background-image: url(https://cdn.dribbble.com/users/8483639/screenshots/16148575/media/d7d4f955e0bb47e1e3b80ec39eae5039.png?compress=1&resize=1200x900);
+  width: 350px;
+  height: fit-content;
+}
 .App {
-  text-align: center;
-}
+  background: linear-gradient(
+    68.1deg,
+    rgb(248, 205, 205) -0.3%,
+    rgb(149, 170, 211) 100.7%
+  );
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +20,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+header {
+  text-align: center;
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: azure;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(132, 132, 253);
+}
+footer {
+  font-size: 15px;
 }
