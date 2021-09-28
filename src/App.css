@@ -1,16 +1,18 @@
 .container {
   border: outset 1px #dbdbff;
   border-radius: 10px;
-  background-image: url(https://cdn.dribbble.com/users/8483639/screenshots/16148575/media/d7d4f955e0bb47e1e3b80ec39eae5039.png?compress=1&resize=1200x900);
+  background-image: url(https://www.oecd-nea.org/upload/docs/image/jpeg/2020-11/book_stack.jpg.associated/th-320x240-book_stack.jpg.jpg);
+  opacity: 0.9;
   width: 350px;
   height: fit-content;
 }
 .App {
-  background: linear-gradient(
-    68.1deg,
-    rgb(248, 205, 205) -0.3%,
-    rgb(149, 170, 211) 100.7%
-  );
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
 
   min-height: 100vh;
   display: flex;
@@ -18,6 +20,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-weight: 600;
   color: white;
 }
 header {
@@ -36,4 +39,5 @@ a:hover {
 }
 footer {
   font-size: 15px;
+  font-weight: 400;
 }
