@@ -1,11 +1,12 @@
 .container {
   border: outset 1px #dbdbff;
   border-radius: 10px;
-  background-image: url(https://www.oecd-nea.org/upload/docs/image/jpeg/2020-11/book_stack.jpg.associated/th-320x240-book_stack.jpg.jpg);
+  background-image: url(https://static01.nyt.com/images/2019/12/17/books/review/17fatbooks/17fatbooks-jumbo.jpg?quality=90&auto=webp);
   opacity: 0.9;
   width: 350px;
   height: fit-content;
 }
+
 .App {
   background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
     radial-gradient(

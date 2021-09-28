@@ -4,11 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+       <h1>
+          Dictionary
+        </h1>
       <div className="container">
       <header className="App-header">
-        <p>
-          Dictionary
-        </p>
       </header>
       <Dictionary />
       </div>
