@@ -12,7 +12,9 @@ input {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .title {
+  padding-top: 15px;
   color: #f1edfb;
+  font-size: 24px;
 }
 form {
   margin: 0 auto;
