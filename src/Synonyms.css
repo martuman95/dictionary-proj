@@ -1,6 +1,13 @@
 li {
   display: inline-block;
+  list-style: none;
   border-radius: 5px;
+  border: lightpink 1px solid;
   margin: 5px;
+  text-align: center;
+  width: 100px;
+}
+li:hover {
   background-color: rgb(248, 220, 224);
+  transition: all 150ms ease-in-out;
 }

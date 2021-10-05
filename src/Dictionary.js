@@ -33,6 +33,7 @@ function search(){
 if(loaded){
     return (
         <div className="Dictionary">
+            <h2 className="title">What are you looking for?</h2>
             <section>
 <form onSubmit={HandleSubmit}>
     <input type="search" onChange={handleKeyword} placeholder="Type your word"/>

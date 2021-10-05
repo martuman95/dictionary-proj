@@ -9,7 +9,7 @@ return (
     {props.meaning.definitions.map(function(definition, index){
 return(
     <div key={index}> 
-    <p> <strong> Definition: </strong>
+    <p> 
     <span className="text-capitalize">{definition.definition}</span>
     <br />
     <strong> Example: </strong>
