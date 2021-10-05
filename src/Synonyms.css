@@ -1,3 +1,6 @@
 li {
-  list-style: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: rgb(248, 220, 224);
 }

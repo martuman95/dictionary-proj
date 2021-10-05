@@ -1,20 +1,14 @@
 .container {
   border: outset 1px #dbdbff;
   border-radius: 10px;
-  background-image: url(https://static01.nyt.com/images/2019/12/17/books/review/17fatbooks/17fatbooks-jumbo.jpg?quality=90&auto=webp);
+  background-color: #b094f8;
   opacity: 0.9;
   width: 350px;
   height: fit-content;
 }
 
 .App {
-  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
-    radial-gradient(
-      91% 146%,
-      rgba(255, 255, 255, 0.5) 47%,
-      rgba(0, 0, 0, 0.5) 100%
-    );
-
+  background-color: #f9f4ff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +16,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   font-weight: 600;
-  color: white;
+  color: #885df1;
 }
 header {
   text-align: center;
@@ -32,7 +26,7 @@ header {
 }
 
 a {
-  color: azure;
+  color: lightpink;
   text-decoration: none;
 }
 a:hover {
@@ -41,4 +35,11 @@ a:hover {
 footer {
   font-size: 15px;
   font-weight: 400;
+}
+.dictionary {
+  border-radius: 10px;
+  background-color: #f7f6fa;
+  opacity: 0.9;
+  width: fit-content;
+  height: fit-content;
 }

@@ -15,7 +15,9 @@ return(
     <strong> Example: </strong>
     <em className="text-capitalize">{definition.example}</em>
     <br />
+    <section className="synonym">
     <Synonyms synonyms={definition.synonyms}/>
+    </section>
     </p>
     </div>
 )

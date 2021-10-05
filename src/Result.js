@@ -6,11 +6,13 @@ export default function Result(props) {
        return(
         <div className="Result">
           <h2 className="text-capitalize"> {props.results.word} </h2>
-    <h5> /{props.results.phonetic} / </h5>
+    <h5> [/{props.results.phonetic} /] </h5>
           {props.results.meanings.map(function(meaning, index){
 return(
     <div key={index}> 
+    <section className="dictionary">
     <Meaning meaning={meaning} />
+    </section>
     </div>
 ) 
           })}

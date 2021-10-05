@@ -10,7 +10,7 @@ function App() {
       <div className="container">
       <header className="App-header">
       </header>
-      <Dictionary />
+<Dictionary defaultKeyword="Yoga"/>
       </div>
       <footer> <a href="https://github.com/martuman95/dictionary-proj">Open Source Code</a> by <a href="https://www.instagram.com/martugram_/?hl=it">Marta Manunta</a></footer>
     </div>

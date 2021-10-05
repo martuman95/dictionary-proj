@@ -16,3 +16,10 @@ form {
   margin: 0 auto;
   width: 200px;
 }
+h2 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  font-size: 15px;
+}
